@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f7ecde"
+    android:padding="20dp"
+    tools:context=".UsernameActivity"
+    android:layout_gravity="center">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/user_name"
+        android:textSize="40sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_marginTop="80dp"
+        android:textColor="#54BAB9"
+        />
+
+    <EditText
+        android:id="@+id/enterUsernameText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="10dp"
+        android:autofillHints="username"
+        android:gravity="center"
+        android:hint="@string/enter_username"
+        android:inputType="textPersonName"
+        android:textColor="#455A64"
+        android:textColorHint="#757575"
+        android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/saveUsernameButton"
+            android:text="@string/save_username"
+            android:textSize="30sp"
+            android:textColor="#000"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/button_color"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/enterUsernameText"
+
+            />
+
+
+
+</RelativeLayout>

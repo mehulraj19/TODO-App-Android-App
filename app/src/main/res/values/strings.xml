@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">TODO App</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="add_a_task">add a task</string>
+    <string name="your_tasks">YOUR TASKS</string>
+    <string name="e_g_eat_less_at_dinner">e.g., Eat less at dinner</string>
+    <string name="button_image">button image</string>
+    <string name="save_button">save button</string>
+    <string name="tomorrow">tomorrow</string>
+    <string name="next_week">Next Week</string>
+    <string name="today">Today</string>
+    <string name="due_date">Due Date</string>
+    <string name="high">High</string>
+    <string name="medium">Medium</string>
+    <string name="low">Low</string>
+    <string name="about">About</string>
+    <string name="change_username">Change Username</string>
+    <string name="about_me">This App has been developed by Mehul Raj (merajcode)</string>
+    <string name="enter_username">Enter Username</string>
+    <string name="save_username">save username</string>
+    <string name="user_name">Username</string>
+</resources>
